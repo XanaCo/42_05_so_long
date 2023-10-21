@@ -13,15 +13,19 @@ The "so_long" project presents students with the challenge of creating a simple 
 
 The game mechanics are straightforward, yet they allow for creativity in game design, encouraging students to design their maps, characters, and items.
 
+<div align=center>
+<img src=https://github.com/Xanaco/42_00_Ressources/blob/main/screenshots/So_long.png alt=Xanaco's 42Project Score/>
+</div>
+
 ## Key Components
 
 1. **Graphical Library**: Using the MiniLibX library, a simple C graphical library frequently used in 42 School projects, to render game elements and handle user inputs.
 
-2. **Game Rendering**: Creating a grid-based game board with distinct tiles for walls, empty spaces, collectible items, the player character, and the exit.
+2. **Game Rendering**: Creating a grid-based game board with distinct tiles for walls, empty spaces, collectible items, the player character, and exit.
 
 3. **Player Movement**: Implementing player movement mechanics to navigate the map, collecting items, and eventually reaching the exit.
 
-4. **Game Logic**: Ensuring the game follows its rules, such as not allowing the player to pass through walls and triggering game completion once all items are collected, and the player reaches the exit.
+4. **Game Logic**: Ensuring the game follows its rules, such as not allowing the player to pass through walls and triggering game completion once all items are collected and the player reaches the exit.
 
 5. **Score Counter**: Keeping track of the number of moves made by the player, aiming to complete the game in the fewest steps possible.
 
