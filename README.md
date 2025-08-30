@@ -43,14 +43,12 @@ This project offers an introduction to **game development and graphical librarie
 The game mechanics are straightforward, but they allow for creativity in designing the map, characters, and items. The goal was to make a fun, cute, and challenging little game where exploration and planning matter.
 
 ## Table of Contents
+- [Installation](#installation)
 - [Game Concept](#game-concept)
 - [Gameplay](#gameplay)
 - [Controls](#controls)
 - [Enemies](#enemies)
 - [Objectives](#objectives)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
-- [Credits](#credits)
 
 ## Game Concept
 
