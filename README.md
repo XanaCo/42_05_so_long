@@ -34,9 +34,13 @@ For the bonus part:
 <img src=https://github.com/Xanaco/42_00_Ressources/blob/main/screenshots/So_long.png alt=SOLONG Title Screenshot/>
 </div>
 
-A small 2D top-down game where you play **Inca**, a cute yellow dog, navigating a graveyard full of tombs to collect bones. Avoid the skeletons and reach the exit **only after collecting all bones**.
+This is my **first game** entirely coded in C, created as a school project at **42**.
 
-The game mechanics are straightforward, yet they allow for creativity in game design, encouraging students at 42 to design their maps, mecanics, characters, and items.
+The so_long project presents students with the challenge of creating a simple 2D game. Leveraging graphical programming, it revolves around a character (here, a small cute yellow dog) who needs to collect items in a map (bones) and then reach the exit, all while avoiding enemies (skeletons).  
+
+This project offers an introduction to **game development and graphical libraries**, providing hands-on experience in creating interactive visual applications.  
+
+The game mechanics are straightforward, but they allow for creativity in designing the map, characters, and items. The goal was to make a fun, cute, and challenging little game where exploration and planning matter.
 
 ## Table of Contents
 - [Game Concept](#game-concept)
@@ -67,7 +71,7 @@ You take control of **Inca**, a playful little dog exploring a spooky graveyard.
 
 - **Movement:** Arrow Keys / WASD  
 - **Action:** None (simple collection by touching bones)  
-- **Pause / Quit:** ESC or Q  
+- **Pause / Quit:** ESC or Q, or close window  
 
 ## Enemies
 
