@@ -7,46 +7,77 @@
 <h5>Outstanding Project 3/3</h5>
 </div>
 
-## Overview
+## Installation
 
-The "so_long" project presents students with the challenge of creating a simple 2D game. Leveraging graphical programming, this project revolves around a character that needs to collect items in a map and then reach the exit, all while trying to minimize the number of moves. This endeavor offers students an introduction to game development and graphical libraries, providing a hands-on experience in creating interactive visual applications.
+### Prerequisites
+Make sure all dependencies are installed on your system, may vary depending on your distribution.
 
-The game mechanics are straightforward, yet they allow for creativity in game design, encouraging students to design their maps, characters, and items.
+### Build
+```
+git clone git@github.com:XanaCo/42_05_so_long.git SoLong
+cd SoLong
+make
+```
+
+### Run
+For the mandatory part:
+```
+./so_long  maps/mandatory/valid/choose-one-file-here
+```
+For the bonus part:
+```
+./so_long maps/bonus/valid/choose-one-file-here
+```
+# So_long (mini) Bible
 
 <div align=center>
-<img src=https://github.com/Xanaco/42_00_Ressources/blob/main/screenshots/So_long.png alt=Xanaco's 42Project Score/>
+<img src=https://github.com/Xanaco/42_00_Ressources/blob/main/screenshots/So_long.png alt=SOLONG Title Screenshot/>
 </div>
 
-## Key Components
+A small 2D top-down game where you play **Inca**, a cute yellow dog, navigating a graveyard full of tombs to collect bones. Avoid the skeletons and reach the exit **only after collecting all bones**.
 
-1. **Graphical Library**: Using the MiniLibX library, a simple C graphical library frequently used in 42 School projects, to render game elements and handle user inputs.
+The game mechanics are straightforward, yet they allow for creativity in game design, encouraging students at 42 to design their maps, mecanics, characters, and items.
 
-2. **Game Rendering**: Creating a grid-based game board with distinct tiles for walls, empty spaces, collectible items, the player character, and exit.
+## Table of Contents
+- [Game Concept](#game-concept)
+- [Gameplay](#gameplay)
+- [Controls](#controls)
+- [Enemies](#enemies)
+- [Objectives](#objectives)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Credits](#credits)
 
-3. **Player Movement**: Implementing player movement mechanics to navigate the map, collecting items, and eventually reaching the exit.
+## Game Concept
 
-4. **Game Logic**: Ensuring the game follows its rules, such as not allowing the player to pass through walls and triggering game completion once all items are collected and the player reaches the exit.
+You take control of **Inca**, a playful little dog exploring a spooky graveyard. Your goal is to **collect all bones** while avoiding skeletons, then safely reach the exit.  
 
-5. **Score Counter**: Keeping track of the number of moves made by the player, aiming to complete the game in the fewest steps possible.
+- **Genre:** 2D Top-down Puzzle / Arcade  
+- **Target Platform:** Linux (prototype) 
+- **Audience:** Players who enjoy cute characters, light puzzles, and arcade-style challenges
 
-6. **Error Handling**: Implementing checks for valid map configurations and other potential game-related errors.
+## Gameplay
 
-7. **User Interface**: Providing player feedback on move count, game status, and potential win/loss scenarios.
+1. Explore the graveyard and navigate through tombs.  
+2. Collect all bones scattered throughout the level.  
+3. Avoid skeletons, which remain idle but will cause a fail if touched.  
+4. Once all bones are collected, reach the exit to finish the level.  
 
-8. **Bonus Features**: Students can enhance their projects with additional features, such as enemies, animations, or varied level designs, to earn bonus points.
+## Controls
 
-## Key Skills Developed
+- **Movement:** Arrow Keys / WASD  
+- **Action:** None (simple collection by touching bones)  
+- **Pause / Quit:** ESC or Q  
 
-1. **Graphical Programming**: Acquiring experience in rendering 2D graphics and animations using a graphical library.
+## Enemies
 
-2. **Game Logic Development**: Implementing core game mechanics, ensuring consistent and bug-free gameplay.
+### Skeletons
+- Idle in place, guarding bones or tombs.  
+- **Touching a skeleton ends the game.**
 
-3. **User Input Handling**: Learning to handle and process user inputs in real-time to control game elements.
+## Objectives
 
-4. **Problem Solving**: Navigating challenges associated with game development, from ensuring smooth graphics rendering to perfecting game mechanics.
+- **Collect all bones** in the graveyard.  
+- **Avoid skeletons** at all costs.  
+- **Reach the exit** only after collecting all bones.  
 
-5. **Creativity**: The nature of the project allows students to express creativity in level design, game mechanics, and graphical elements.
-
-6. **Optimization**: As the goal is to finish the game in the least number of moves, students indirectly learn the essence of optimization.
-
-7. **Error Handling**: Developing strategies to manage potential issues, ensuring a seamless user experience.
